@@ -1,0 +1,64 @@
+@media screen and (max-width:600px) {
+    .page1{
+        padding: 1% 2%;
+    }
+    nav > .links > img {
+        height: 70px;
+    }
+    /* nav{
+        background-color: white;
+    } */
+    nav > .links > a {
+        display: none;
+    }
+    nav > .goto {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+        font-size: 40px;
+        color: white;
+    }
+    .page2{
+        flex-direction: column;
+    }
+    .page2_heading{
+        text-align: center;
+        
+    }
+    .page2>div{
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+    .page3{
+        flex-direction: column;
+    }
+    .page3>.left>img{
+        width: 99%;
+    }
+    .over{
+        outline: none;
+    }
+    .page4{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+        justify-content: center;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .page4>div{
+        margin-top: 10px;
+        margin-left: 25%;
+    }
+    .page4>div>.page4_box1{
+        /* margin-top: 10px; */
+        text-align: center;
+    }
+    .page4>div>img{
+        height: 200px;
+        justify-content: center;  }
+}
